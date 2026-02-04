@@ -204,25 +204,25 @@ In this section I list data‐analytics projects, briefly describing the technol
 
 In this section I list Power BI–focused analytics projects, briefly describing the business problem, datasets, methods, and insights delivered through interactive dashboards.
 
-🛒 Retail Sales Performance Dashboard (Power BI)
+## 🛒 Retail Sales Performance Dashboard (Power BI)
 
-Dashboard: Power BI Service (Public)
-Code: https://github.com/sam-Adk/PowerBI-Retail-Sales
+**Dashboard**: Power BI Service (Public)
+**Code**: https://github.com/sam-Adk/PowerBI-Retail-Sales
 
-Goal
+**Goal**
 The goal of this project is to analyze retail sales performance across regions, product categories, and time periods to identify revenue drivers and underperforming areas.
 
 Description
 
-Regional Performance: Certain regions consistently outperformed others, contributing the majority of total revenue.
+**Regional Performance**: Certain regions consistently outperformed others, contributing the majority of total revenue.
 
-Product Category Trends: Electronics and home appliances generated the highest revenue, while some categories showed high sales volume but low profitability.
+**Product Category Trends**: Electronics and home appliances generated the highest revenue, while some categories showed high sales volume but low profitability.
 
-Seasonality Effects: Sales peaked during holiday periods, with noticeable drops in off-season months.
+**Seasonality Effects**: Sales peaked during holiday periods, with noticeable drops in off-season months.
 
-Customer Segmentation: A small percentage of customers accounted for a large share of total sales.
+**Customer Segmentation**: A small percentage of customers accounted for a large share of total sales.
 
-📁 Data Sources
+## 📁 Data Sources
 
 Retail sales transaction dataset (public business dataset)
 
@@ -230,7 +230,7 @@ Customer and product dimension tables
 
 Data cleaned and modeled using Power Query
 
-🔍 Methods
+🔍**Methods**
 
 Star schema data modeling
 
@@ -238,25 +238,25 @@ DAX measures for total sales, profit margin, and YoY growth
 
 Drill-through and slicers for region, category, and date
 
-🏥 Healthcare Appointment & Wait-Time Analysis
+### 🏥Healthcare Appointment & Wait-Time Analysis
 
-Dashboard: Power BI Service (Public)
-Code: https://github.com/sam-Adk/PowerBI-Healthcare-Analytics
+**Dashboard**: Power BI Service (Public)
+**Code**: https://github.com/sam-Adk/PowerBI-Healthcare-Analytics
 
-Goal
+**Goal**
 Analyze hospital appointment data to understand patient wait times, appointment outcomes, and operational efficiency.
 
-Description
+**Description**
 
 Wait-Time Analysis: Certain departments experienced significantly longer average wait times than others.
 
-Appointment Outcomes: Missed and canceled appointments were more frequent during peak hours.
+**Appointment Outcomes**: Missed and canceled appointments were more frequent during peak hours.
 
-Operational Bottlenecks: Staffing shortages correlated with increased delays in specific time windows.
+**Operational Bottlenecks**: Staffing shortages correlated with increased delays in specific time windows.
 
-Patient Flow Trends: Morning hours handled the highest appointment volumes.
+**Patient Flow Trends**: Morning hours handled the highest appointment volumes.
 
-📁 Data Sources
+## 📁 Data Sources
 
 Public healthcare appointment dataset
 
@@ -264,7 +264,7 @@ Department and scheduling data
 
 Data transformed using Power Query
 
-🔍 Methods
+**🔍 Methods**
 
 Time-based analysis using DAX
 
@@ -274,23 +274,23 @@ Interactive dashboards with department-level drill-downs
 
 💳 Financial Transactions & Fraud Risk Dashboard
 
-Dashboard: Power BI Service (Public)
-Code: https://github.com/sam-Adk/PowerBI-Financial-Transactions
+**Dashboard**: Power BI Service (Public)
+**Code**: https://github.com/sam-Adk/PowerBI-Financial-Transactions
 
-Goal
+**Goal**
 Identify transaction patterns and potential fraud risk indicators using transaction-level financial data.
 
-Description
+**Description**
 
-High-Risk Transactions: Large transaction amounts and unusual transaction times showed higher fraud likelihood.
+**High-Risk Transactions**: Large transaction amounts and unusual transaction times showed higher fraud likelihood.
 
-Geographic Patterns: Certain regions recorded higher concentrations of flagged transactions.
+**Geographic Patterns**: Certain regions recorded higher concentrations of flagged transactions.
 
-Customer Behavior: New customers exhibited higher fraud risk compared to long-term users.
+**Customer Behavior**: New customers exhibited higher fraud risk compared to long-term users.
 
-Transaction Channels: Online transactions showed higher risk compared to in-person transactions.
+**Transaction Channels**: Online transactions showed higher risk compared to in-person transactions.
 
-📁 Data Sources
+## 📁 Data Sources
 
 Public financial transaction dataset
 
@@ -298,7 +298,7 @@ Customer and merchant reference data
 
 Data cleaned and modeled using Power Query
 
-🔍 Methods
+**🔍Methods**
 
 Risk scoring using calculated DAX measures
 
