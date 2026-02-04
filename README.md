@@ -202,7 +202,7 @@ In this section I list data‐analytics projects, briefly describing the technol
 
 ## 📊 Power Bi Projects
 
-In this section I list Power BI–focused analytics projects, briefly describing the business problem, datasets, methods, and insights delivered through interactive dashboards.
+-In this section I list Power BI–focused analytics projects, briefly describing the business problem, datasets, methods, and insights delivered through interactive dashboards.
 
 ## 🛒 Retail Sales Performance Dashboard (Power BI)
 
@@ -210,9 +210,9 @@ In this section I list Power BI–focused analytics projects, briefly describing
 **Code**: https://github.com/sam-Adk/PowerBI-Retail-Sales
 
 **Goal**
-The goal of this project is to analyze retail sales performance across regions, product categories, and time periods to identify revenue drivers and underperforming areas.
+-The goal of this project is to analyze retail sales performance across regions, product categories, and time periods to identify revenue drivers and underperforming areas.
 
-Description
+## Description
 
 **Regional Performance**: Certain regions consistently outperformed others, contributing the majority of total revenue.
 
@@ -224,19 +224,19 @@ Description
 
 ## 📁 Data Sources
 
-Retail sales transaction dataset (public business dataset)
+-Retail sales transaction dataset (public business dataset)
 
-Customer and product dimension tables
+-Customer and product dimension tables
 
-Data cleaned and modeled using Power Query
+-Data cleaned and modeled using Power Query
 
 🔍**Methods**
 
-Star schema data modeling
+-Star schema data modeling
 
-DAX measures for total sales, profit margin, and YoY growth
+-DAX measures for total sales, profit margin, and YoY growth
 
-Drill-through and slicers for region, category, and date
+-Drill-through and slicers for region, category, and date
 
 ### 🏥Healthcare Appointment & Wait-Time Analysis
 
@@ -258,19 +258,19 @@ Wait-Time Analysis: Certain departments experienced significantly longer average
 
 ## 📁 Data Sources
 
-Public healthcare appointment dataset
+-Public healthcare appointment dataset
 
-Department and scheduling data
+-Department and scheduling data
 
-Data transformed using Power Query
+-Data transformed using Power Query
 
 **🔍 Methods**
 
-Time-based analysis using DAX
+-Time-based analysis using DAX
 
-KPI calculations for average wait time and no-show rates
+-KPI calculations for average wait time and no-show rates
 
-Interactive dashboards with department-level drill-downs
+-Interactive dashboards with department-level drill-downs
 
 💳 Financial Transactions & Fraud Risk Dashboard
 
@@ -292,16 +292,16 @@ Identify transaction patterns and potential fraud risk indicators using transact
 
 ## 📁 Data Sources
 
-Public financial transaction dataset
+-Public financial transaction dataset
 
-Customer and merchant reference data
+-Customer and merchant reference data
 
-Data cleaned and modeled using Power Query
+-Data cleaned and modeled using Power Query
 
 **🔍Methods**
 
-Risk scoring using calculated DAX measures
+-Risk scoring using calculated DAX measures
 
-Trend and anomaly analysis
+-Trend and anomaly analysis
 
-Dashboard filters for transaction type, region, and risk level
+-Dashboard filters for transaction type, region, and risk level
