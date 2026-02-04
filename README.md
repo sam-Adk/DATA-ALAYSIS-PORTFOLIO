@@ -197,3 +197,111 @@ In this section I list data‐analytics projects, briefly describing the technol
 **Technology:** Python, Pandas, Matplotlib  
 **Results:**  
 - Observed a steady increase in housing prices since 1995, alongside a rise in reported crime rates.
+
+
+
+📊 Power Bi Projects
+
+In this section I list Power BI–focused analytics projects, briefly describing the business problem, datasets, methods, and insights delivered through interactive dashboards.
+
+🛒 Retail Sales Performance Dashboard (Power BI)
+
+Dashboard: Power BI Service (Public)
+Code: https://github.com/sam-Adk/PowerBI-Retail-Sales
+
+Goal
+The goal of this project is to analyze retail sales performance across regions, product categories, and time periods to identify revenue drivers and underperforming areas.
+
+Description
+
+Regional Performance: Certain regions consistently outperformed others, contributing the majority of total revenue.
+
+Product Category Trends: Electronics and home appliances generated the highest revenue, while some categories showed high sales volume but low profitability.
+
+Seasonality Effects: Sales peaked during holiday periods, with noticeable drops in off-season months.
+
+Customer Segmentation: A small percentage of customers accounted for a large share of total sales.
+
+📁 Data Sources
+
+Retail sales transaction dataset (public business dataset)
+
+Customer and product dimension tables
+
+Data cleaned and modeled using Power Query
+
+🔍 Methods
+
+Star schema data modeling
+
+DAX measures for total sales, profit margin, and YoY growth
+
+Drill-through and slicers for region, category, and date
+
+🏥 Healthcare Appointment & Wait-Time Analysis
+
+Dashboard: Power BI Service (Public)
+Code: https://github.com/sam-Adk/PowerBI-Healthcare-Analytics
+
+Goal
+Analyze hospital appointment data to understand patient wait times, appointment outcomes, and operational efficiency.
+
+Description
+
+Wait-Time Analysis: Certain departments experienced significantly longer average wait times than others.
+
+Appointment Outcomes: Missed and canceled appointments were more frequent during peak hours.
+
+Operational Bottlenecks: Staffing shortages correlated with increased delays in specific time windows.
+
+Patient Flow Trends: Morning hours handled the highest appointment volumes.
+
+📁 Data Sources
+
+Public healthcare appointment dataset
+
+Department and scheduling data
+
+Data transformed using Power Query
+
+🔍 Methods
+
+Time-based analysis using DAX
+
+KPI calculations for average wait time and no-show rates
+
+Interactive dashboards with department-level drill-downs
+
+💳 Financial Transactions & Fraud Risk Dashboard
+
+Dashboard: Power BI Service (Public)
+Code: https://github.com/sam-Adk/PowerBI-Financial-Transactions
+
+Goal
+Identify transaction patterns and potential fraud risk indicators using transaction-level financial data.
+
+Description
+
+High-Risk Transactions: Large transaction amounts and unusual transaction times showed higher fraud likelihood.
+
+Geographic Patterns: Certain regions recorded higher concentrations of flagged transactions.
+
+Customer Behavior: New customers exhibited higher fraud risk compared to long-term users.
+
+Transaction Channels: Online transactions showed higher risk compared to in-person transactions.
+
+📁 Data Sources
+
+Public financial transaction dataset
+
+Customer and merchant reference data
+
+Data cleaned and modeled using Power Query
+
+🔍 Methods
+
+Risk scoring using calculated DAX measures
+
+Trend and anomaly analysis
+
+Dashboard filters for transaction type, region, and risk level
