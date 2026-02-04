@@ -200,7 +200,7 @@ In this section I list data‐analytics projects, briefly describing the technol
 
 
 
-📊 Power Bi Projects
+##📊 Power Bi Projects
 
 In this section I list Power BI–focused analytics projects, briefly describing the business problem, datasets, methods, and insights delivered through interactive dashboards.
 
